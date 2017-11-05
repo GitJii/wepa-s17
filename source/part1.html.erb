@@ -1059,7 +1059,7 @@ public class HenkiloController {
   Toinen vaihtoehto on ajatella polkua haettavan resurssin tunnistajana. Annotaatiolle <code>@GetMapping</code> määriteltävään polkuun voidaan määritellä polkumuuttuja aaltosulkujen avulla. Esimerkiksi polku <code>"/{arvo}"</code> ottaisi vastaan minkä tahansa juuripolun alle tulevan kyselyn ja tallentaisi arvon myöhempää käyttöä varten. Tällöin jos käyttäjä tekee pyynnön esimerkiksi osoitteeseen <code>http://localhost:8080/kirja</code>, tallentuu arvo "kirja" myöhempää käyttöä varten. Polkumuuttujiin pääsee käsiksi pyyntöä käsittelevälle metodille määriteltävän annotaation <a href="http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/bind/annotation/PathVariable.html" target="_blank">@PathVariable</a> avulla.
 </p>
 
-<p>Yksittäisen henkilön näyttäminen onnistuisi esimerkiksi seuravavasti:</p>
+<p>Yksittäisen henkilön näyttäminen onnistuisi esimerkiksi seuraavasti:</p>
 
 <% partial 'partials/code_highlight' do %>
 package henkilot;
